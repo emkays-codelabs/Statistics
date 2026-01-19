@@ -102,7 +102,7 @@ The **tail is longer on the left side**.
 
 
 ## 3️⃣ Normal Distribution  
-
+![Normal Distribution Curve](Normal Distribution.png)
 A **bell-shaped curve** 🔔  
 Mean = Median = Mode  
 
@@ -117,8 +117,6 @@ Mean = Median = Mode
 Example:  
 If mean = 70, SD = 10  
 • 68% of scores are between 60 and 80  
----
-
 ---
 
 ## 4️⃣ Z-Score  
