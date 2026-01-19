@@ -200,8 +200,6 @@ Z = 1.23 → Area ≈ 0.8907
 
 These three values are used in **hypothesis testing** to decide whether to reject the null hypothesis (H₀).
 
----
-
 ### 12.1 Calculated Z (Test Statistic)
 
 The **calculated Z** is computed from your sample data.
