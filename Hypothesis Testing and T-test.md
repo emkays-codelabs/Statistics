@@ -1,4 +1,4 @@
-# 📘 Hypothesis Testing amd T-test
+# 📘 Hypothesis Testing and T-Test
 
 ---
 
@@ -25,81 +25,45 @@ Most frequent value.
 
 ## 2️⃣ Skewness (Shape of Data)
 
-
-
 **Skewness** describes the **shape of a dataset** and shows how the data is **distributed around the mean**.
 
 It tells us whether the data is:
-
-* Balanced
-* Pulled to the right
-* Pulled to the left
+- Balanced  
+- Pulled to the right  
+- Pulled to the left  
 
 Understanding skewness helps us interpret **averages**, choose the **right statistical test**, and understand **real-world data patterns**.
 
 ---
+
 ![Skewness Diagram](skewness.png)
-### 🔹 1. Symmetric Distribution
 
-A **symmetric** distribution has an equal spread on both sides of the center.
+### 🔹 1. Symmetric Distribution  
+- Mean = Median = Mode  
+- Balanced shape  
+- No skew  
 
-#### Characteristics
+### 🔹 2. Positively Skewed (Right-Skewed)  
+- Mean > Median > Mode  
+- Few very large values pull the mean right  
+- Most data is on the left  
 
-* Mean = Median = Mode
-* Balanced shape
-* No skew
-
-
-
----
-
-### 🔹 2. Positively Skewed (Right-Skewed)
-
-The **tail is longer on the right side**.
-
-#### Characteristics
-
-* Mean > Median > Mode
-* Few **very large values** pull the mean to the right
-* Most data is on the left
-
-
-
----
-
-### 🔹 3. Negatively Skewed (Left-Skewed)
-
-The **tail is longer on the left side**.
-
-#### Characteristics
-
-* Mean < Median < Mode
-* Few **very small values** pull the mean to the left
-* Most data is on the right
-
+### 🔹 3. Negatively Skewed (Left-Skewed)  
+- Mean < Median < Mode  
+- Few very small values pull the mean left  
+- Most data is on the right  
 
 ---
 
 ### 📊 Skewness Summary Table
 
-| Type         | Tail Direction | Mean Relation        | Example      |
-| ------------ | -------------- | -------------------- | ------------ |
-| Symmetric    | None           | Mean = Median = Mode | Normal curve |
-| Right-Skewed | Right          | Mean > Median > Mode | Income       |
-| Left-Skewed  | Left           | Mean < Median < Mode | Easy exam    |
+| Type | Tail Direction | Mean Relation | Example |
+|------|---------------|----------------|----------|
+| Symmetric | None | Mean = Median = Mode | Normal curve |
+| Right-Skewed | Right | Mean > Median > Mode | Income |
+| Left-Skewed | Left | Mean < Median < Mode | Easy exam |
 
 ---
-
-### 📌 Key Exam Tips
-
-* **Right-skewed** → High values pull the mean right
-* **Left-skewed** → Low values pull the mean left
-* **Symmetric** → Balanced data
-
----
-
-
-
 
 ## 3️⃣ Normal Distribution  
 
@@ -115,90 +79,52 @@ Mean = Median = Mode
 | μ ± 3σ | 99.7% |
 
 Example:  
-### If mean = 70, SD = 10  
-### 68% of scores are between 60 and 80  
----
+If mean = 70, SD = 10  
+68% of scores are between 60 and 80  
+
 ![Normal Distribution](Normal_distribution.png)
+
+---
 
 ## 4️⃣ Z-Score
 
 A **Z-score** measures how far a value is from the mean in terms of **standard deviations**.
 
-### Formula
-
+Formula:  
 Z = (X − μ) / σ  
 
-Where:  
-- X = observed value  
-- μ = mean  
-- σ = standard deviation  
-
-### Example
-
+Example:  
 Score = 80  
 Mean = 70  
 SD = 5  
 
 Z = (80 − 70) / 5 = 2  
 
-**Meaning:**  
-The score is **2 standard deviations above** the mean.
+Meaning:  
+The score is **2 SD above** the mean.
 
 ---
 
 ## 5️⃣ Z-Table (Standard Normal Table)
 
-A **Z-table** shows the probability (area) to the **left** of a Z-score in a normal distribution.
+A **Z-table** shows the probability (area) to the **left** of a Z-score.
 
-### Common Values
+| Z-value | Meaning | Area to the Left |
+|--------|---------|------------------|
+| 0.00 | At the mean | 0.5000 |
+| 1.00 | 1 SD above | 0.8413 |
+| 1.64 | Top 5% | 0.9500 |
+| 1.96 | Top 2.5% | 0.9750 |
+| 2.33 | Top 1% | 0.9900 |
 
-| Z-value | Meaning     | Area to the Left |
-| ------- | ----------- | ---------------- |
-| 0.00    | At the mean | 0.5000           |
-| 1.00    | 1 SD above  | 0.8413           |
-| 1.64    | Top 5%      | 0.9500           |
-| 1.96    | Top 2.5%    | 0.9750           |
-| 2.33    | Top 1%      | 0.9900           |
+How to read:
+1. Row = first two digits  
+2. Column = decimal  
+3. Cell = area to the left  
 
-What this means
-* Z = 0.00 → exactly at the mean
-* Z = 1.00 → 1 standard deviation above the mean
-* Z = 1.64 → only 5% of values are higher
-* Z = 1.96 → only 2.5% of values are higher
-* Z = 2.33 → only 1% of values are higher
+Example:  
+Z = 1.23 → Area ≈ 0.8907  
 
----
-
-### How to Read a Z-Table
-
-1. **Row** = first two digits of Z  
-2. **Column** = decimal part  
-3. **Value** = probability to the left  
-
-### Example
-
-Z = 1.23  
-Area ≈ 0.8907  
-
-**Meaning:**  
-89.07% of values are **below** this score.
-
----
-
-### Summary: Why Use Z-Scores?
-
-Z-scores help standardize values so we can compare and interpret data easily.
-
-They allow us to:
-- Compare scores from different distributions  
-- See how far a value is from the mean  
-- Find probabilities using a Z-table  
-- Identify outliers  
-- Perform hypothesis testing  
-
-- A positive Z-score indicates that the raw score is above the mean of the distribution.
-- A negative Z-score shows that the raw score is below the mean.
-- A Z-score of zero means the raw score is exactly equal to the mean.
 ---
 
 ## 6️⃣ What is a Hypothesis?
@@ -210,11 +136,8 @@ Example:
 
 ---
 
-## 7️⃣ Hypothesis Testing  
+## 7️⃣ Hypothesis Testing Steps
 
-Used to decide if a claim is **supported by data**.
-
-Steps:  
 1. State H₀ and H₁  
 2. Choose test  
 3. Calculate statistic  
@@ -234,8 +157,6 @@ H₀: μ = 70
 
 ## 9️⃣ Alternative Hypothesis (H₁)
 
-H₁ = There is a change  
-
 | Type | Meaning |
 |------|---------|
 | μ ≠ 70 | Two-tailed |
@@ -244,21 +165,64 @@ H₁ = There is a change
 
 ---
 
-## 🔟 Significance Level (Alpha, α)
+# 🔟 Significance Level and Confidence Level
 
-α = Probability of wrong decision  
+## The Formula
 
-Common value:  
+C + α = 1  
+
+Where:  
+- α = Significance Level  
+- C = Confidence Level  
+
+---
+
+## 10.1 Significance Level (α)
+
+α is the **risk of rejecting a true null hypothesis**.
+
+In simple words:  
+How much chance of being wrong are you willing to accept?
+
+Common values:
+
+| α | Meaning |
+|----|--------|
+| 0.05 | 5% risk |
+| 0.01 | 1% risk |
+
+---
+
+## 10.2 Confidence Level (C)
+
+C tells how confident you are in your result.
+
+Common values:
+
+| C | Meaning |
+|----|--------|
+| 0.95 | 95% confident |
+| 0.99 | 99% confident |
+
+---
+
+## 10.3 Why C + α = 1?
+
+Example:
+
 α = 0.05  
+C = 1 − 0.05 = 0.95  
+
+0.95 + 0.05 = 1  
 
 Meaning:  
-5% risk of rejecting a true H₀.
+95% confidence, 5% risk of error.
 
 ---
 
 ## 1️⃣1️⃣ P-Value  
 
-The **p-value** shows how likely the result is **if H₀ is true**.
+The p-value shows how likely the result is **if H₀ is true**.
 
 | p-value | Decision |
 |----------|----------|
@@ -269,97 +233,75 @@ The **p-value** shows how likely the result is **if H₀ is true**.
 
 ## 1️⃣2️⃣ Z-Test (Large Sample, σ Known)
 
-### When to Use  
-• n ≥ 30  
-• σ known  
-• Testing a mean  
+When to use:  
+- n ≥ 30  
+- σ known  
+- Testing a mean  
 
-### Formula  
+Formula:  
 Z = (x̄ − μ) / (σ / √n)
 
-### Example  
-
+Example:  
 Claim: μ = 500  
 Sample mean = 495  
 σ = 10  
 n = 36  
 
-Z = (495 − 500) / (10 / 6)  
 Z ≈ −3  
-
 p ≈ 0.0026  
 
-### Conclusion  
-p < 0.05 → Reject H₀  
-Bottles are **underfilled**.
+Conclusion:  
+Reject H₀  
+Bottles are underfilled.
 
 ---
 
 ## 1️⃣3️⃣ One-Sample T-Test  
 
-### When to Use  
-• n < 30  
-• σ unknown  
-• Compare to known value  
+Used when:  
+- n < 30  
+- σ unknown  
 
-### Example  
-
+Example:  
 Scores: 65, 68, 75, 80, 72  
 Mean = 72  
 SD ≈ 5.87  
-n = 5  
 
-t = (72 − 70) / (5.87 / √5)  
 t ≈ 0.76  
-
 df = 4  
 t-critical = 2.776  
 
-### Conclusion  
-|0.76| < 2.776  
-Do not reject H₀  
-No significant difference.
+Conclusion:  
+Do not reject H₀
 
 ---
 
 ## 1️⃣4️⃣ Independent T-Test  
 
-### Purpose  
-Compare **two different groups**  
+Compares two different groups.
 
-### Example  
+Example:  
+Class A = 70  
+Class B = 78  
+p = 0.03  
 
-Class A mean = 70  
-Class B mean = 78  
-
-H₀: μ₁ = μ₂  
-H₁: μ₁ ≠ μ₂  
-
-Suppose p = 0.03  
-
-### Conclusion  
-p < 0.05 → Reject H₀  
-The classes are **significantly different**.
+Conclusion:  
+Reject H₀  
+Groups are different.
 
 ---
 
 ## 1️⃣5️⃣ Paired T-Test  
 
-### Purpose  
-Compare **before vs after**  
+Compares before vs after.
 
-### Example  
+Example:  
+Before: 60  
+After: 70  
+p = 0.01  
 
-Before training: 60  
-After training: 70  
-
-H₀: μd = 0  
-
-Suppose p = 0.01  
-
-### Conclusion  
-Reject H₀  
-Training **improved performance**.
+Conclusion:  
+Training improved performance.
 
 ---
 
@@ -375,80 +317,45 @@ Training **improved performance**.
 | 10 | 2.228 |
 | ∞ | 1.960 |
 
-How to use:  
-1. Find df  
-2. Choose α  
-3. Pick tail  
-4. Compare |t|  
-
 ---
 
-## 1️⃣7️⃣ Chi-Square Test (χ²)
+## 1️⃣7️⃣ Chi-Square Test
 
-Used for **categorical data**.
+Used for categorical data.
 
-### Example: Goodness of Fit  
-
-A die is rolled 60 times.
-
-| Outcome | Observed | Expected |
-|--------|----------|----------|
-| 1 | 8 | 10 |
-| 2 | 9 | 10 |
-| 3 | 12 | 10 |
-| 4 | 11 | 10 |
-| 5 | 10 | 10 |
-| 6 | 10 | 10 |
-
+Example:  
+A die rolled 60 times.  
 χ² = 1.0  
-df = 5  
 Critical = 11.07  
 
-### Conclusion  
-1.0 < 11.07  
-Do not reject H₀  
-The die is **fair**.
+Conclusion:  
+The die is fair.
 
 ---
 
-## 1️⃣8️⃣ Chi-Square (Independence)  
+## 1️⃣8️⃣ Chi-Square (Independence)
 
-### Example  
-
-Survey: Gender vs Preference  
-
-|        | Like | Dislike |
-|--------|------|---------|
-| Male   | 30   | 10 |
-| Female | 20   | 20 |
-
-Result: χ² = 6.5  
+Example:  
+Gender vs Preference  
 p = 0.01  
 
-### Conclusion  
-Reject H₀  
+Conclusion:  
 Preference depends on gender.
 
 ---
 
-## 1️⃣9️⃣ ANOVA (3+ Groups)
+## 1️⃣9️⃣ ANOVA
 
-### Purpose  
-Compare **three or more means**  
+Used for 3+ groups.
 
-### Example  
-
-| Group | Mean |
-|------|------|
-| A | 70 |
-| B | 75 |
-| C | 85 |
-
+Example:  
+Group A = 70  
+Group B = 75  
+Group C = 85  
 p = 0.02  
 
-### Conclusion  
-Reject H₀  
-At least one group is **different**.
+Conclusion:  
+At least one group differs.
 
 ---
 
@@ -467,15 +374,14 @@ At least one group is **different**.
 
 ## 2️⃣1️⃣ Final Exam Summary  
 
-• H₀ = No effect  
-• H₁ = There is an effect  
-• α = Significance level  
-• p-value = Evidence strength  
-• Reject H₀ = Significant  
-• Z-test = Large sample  
-• T-test = Small sample  
-• Chi-square = Categories  
-• ANOVA = Many groups  
+- H₀ = No effect  
+- H₁ = There is an effect  
+- α = Significance level  
+- p-value = Evidence strength  
+- Reject H₀ = Significant  
+- Z-test = Large sample  
+- T-test = Small sample  
+- Chi-square = Categories  
+- ANOVA = Many groups  
 
 ---
-
