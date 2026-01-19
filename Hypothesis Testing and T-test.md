@@ -152,13 +152,20 @@ A **Z-table** shows the probability (area) to the **left** of a Z-score in a nor
 
 ### Common Values
 
-| Z     | Area to the Left |
-|-------|------------------|
-| 0.00  | 0.5000 |
-| 1.00  | 0.8413 |
-| 1.96  | 0.9750 |
-| -1.00 | 0.1587 |
+| Z-value | Meaning     | Area to the Left |
+| ------- | ----------- | ---------------- |
+| 0.00    | At the mean | 0.5000           |
+| 1.00    | 1 SD above  | 0.8413           |
+| 1.64    | Top 5%      | 0.9500           |
+| 1.96    | Top 2.5%    | 0.9750           |
+| 2.33    | Top 1%      | 0.9900           |
+What this means:
 
+Z = 0.00 → exactly at the mean
+Z = 1.00 → 1 standard deviation above the mean
+Z = 1.64 → only 5% of values are higher
+Z = 1.96 → only 2.5% of values are higher
+Z = 2.33 → only 1% of values are higher
 ---
 
 ### How to Read a Z-Table
