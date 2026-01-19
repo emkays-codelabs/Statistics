@@ -308,6 +308,123 @@ Since:
 • **P-value** = How strong the evidence is  
 
 ---
+## 1️⃣3️⃣ One-Tailed and Two-Tailed Tests
 
+In hypothesis testing, the **tail type** tells us **where to look for extreme results** on the normal curve.
 
 ---
+
+## 13.1 Two-Tailed Test (≠)
+
+A **two-tailed test** checks for **any difference**, whether the value is:
+
+• Much higher  
+• OR much lower  
+
+### Hypotheses
+
+H₀: μ = 100  
+H₁: μ ≠ 100  
+
+### What it means  
+We care about **both sides** of the curve.
+
+### Example  
+A company claims the average packet weight is 100 g.  
+You want to check if it is **different** (not just heavier or lighter).
+
+### Rejection Areas  
+Both left and right tails are considered.
+
+For α = 0.05:  
+Each tail = 0.025  
+Critical Z = ±1.96  
+
+---
+
+## 13.2 One-Tailed Test (Positive / Right-Tailed) (>)
+
+A **positive (right-tailed) test** checks if the value is **greater** than the mean.
+
+### Hypotheses
+
+H₀: μ = 100  
+H₁: μ > 100  
+
+### What it means  
+We only care about **high values**.
+
+### Example  
+A new machine claims to **increase** average packet weight above 100 g.
+
+### Rejection Area  
+Only the **right tail** is used.
+
+For α = 0.05:  
+Critical Z = 1.645  
+
+---
+
+## 13.3 One-Tailed Test (Negative / Left-Tailed) (<)
+
+A **negative (left-tailed) test** checks if the value is **lower** than the mean.
+
+### Hypotheses
+
+H₀: μ = 100  
+H₁: μ < 100  
+
+### What it means  
+We only care about **low values**.
+
+### Example  
+A quality inspector checks if packets are **underfilled**.
+
+### Rejection Area  
+Only the **left tail** is used.
+
+For α = 0.05:  
+Critical Z = −1.645  
+
+---
+
+## 13.4 Visual Summary
+
+| Test Type | Checks | Hypothesis | Rejection Area |
+|----------|--------|------------|----------------|
+| Two-tailed | Any difference | μ ≠ value | Both sides |
+| Right-tailed | Higher values | μ > value | Right side |
+| Left-tailed | Lower values | μ < value | Left side |
+
+---
+
+## 13.5 Easy Memory Trick
+
+• **≠** → Two-tailed  
+• **>** → Right-tailed  
+• **<** → Left-tailed  
+
+---
+
+## 13.6 Example Comparison
+
+If Z = 2.1 and α = 0.05:
+
+| Test | Critical Z | Decision |
+|------|-----------|----------|
+| Two-tailed | ±1.96 | Reject H₀ |
+| Right-tailed | 1.645 | Reject H₀ |
+| Left-tailed | −1.645 | Do not reject H₀ |
+
+---
+
+## 13.7 One-Line Summary
+
+• Two-tailed → looks for **any change**  
+• Right-tailed → looks for **increase**  
+• Left-tailed → looks for **decrease**  
+
+---
+
+
+
