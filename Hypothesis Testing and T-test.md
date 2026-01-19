@@ -38,7 +38,7 @@ It tells us whether the data is:
 Understanding skewness helps us interpret **averages**, choose the **right statistical test**, and understand **real-world data patterns**.
 
 ---
-
+![Skewness Diagram](Skewness.png)
 ### 🔹 1. Symmetric Distribution
 
 A **symmetric** distribution has an equal spread on both sides of the center.
