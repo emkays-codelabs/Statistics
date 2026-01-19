@@ -49,18 +49,7 @@ A **symmetric** distribution has an equal spread on both sides of the center.
 * Balanced shape
 * No skew
 
-#### Example
 
-Normal distribution 🔔
-Exam scores centered around 70
-
-```
-      *
-    *   *
-  *       *
-    *   *
-      *
-```
 
 ---
 
@@ -74,16 +63,7 @@ The **tail is longer on the right side**.
 * Few **very large values** pull the mean to the right
 * Most data is on the left
 
-#### Example
 
-Income data 💰
-Most people earn average salaries, but a few earn very high salaries
-
-```
-****  
-  ****  
-     ******  
-```
 
 ---
 
@@ -97,16 +77,6 @@ The **tail is longer on the left side**.
 * Few **very small values** pull the mean to the left
 * Most data is on the right
 
-#### Example
-
-Easy exam scores 📝
-Most students score high, few score very low
-
-```
-      ******  
-   ****  
-****  
-```
 
 ---
 
@@ -128,16 +98,7 @@ Most students score high, few score very low
 
 ---
 
-## 📁 Important File Setup
 
-Make sure your folder looks like this:
-
-```
-project-folder/
-│
-├── hypothesis_testing.md
-└── An_educational_infographic_image_explains_skewness.png
-```
 
 
 ## 3️⃣ Normal Distribution  
