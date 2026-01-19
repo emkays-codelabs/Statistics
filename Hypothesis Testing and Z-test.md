@@ -158,7 +158,7 @@ This means:
 
 ## 9️⃣ Z-Score  
 
-A Z-score measures how far a value is from the mean in **standard deviations**.
+A Z-score measures how far a value is from the mean in **standard deviations**.A z-score of 0 means the value equals the mean, positive values indicate above the mean.
 
 Formula:  
 Z = (X − μ) / σ  
@@ -186,6 +186,9 @@ A Z-table shows the **area to the left** of a Z-score.
 | 1.64 | Top 5% | 0.9500 |
 | 1.96 | Top 2.5% | 0.9750 |
 | 2.33 | Top 1% | 0.9900 |
+
+* A z-score of 1.64 marks the point in the standard normal distribution where 95% of the area lies to the left (cumulative probability of 0.9500), leaving 5% in the right tail ("Top 5%").
+* For two-tailed 5% tests, use ±1.96 (2.5% per tail) instead; 1.64 applies to one-tailed scenarios or specific confidence levels.
 
 How to read:  
 1. Row = first two digits  
