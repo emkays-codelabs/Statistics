@@ -118,7 +118,8 @@ Example:
 If mean = 70, SD = 10  
 • 68% of scores are between 60 and 80  
 ---
-`normal_distribution.png`
+![Normal Distribution](Normal_distribution.png)
+
 
 ## 4️⃣ Z-Score  
 
