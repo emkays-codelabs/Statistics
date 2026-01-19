@@ -140,6 +140,75 @@ The score is **2 SD above** the mean.
 ---
 
 ## 5️⃣ Z-Table (Standard Normal Table)
+Here’s a **clear, concise Z-score section** you can use in your notes or Markdown file:
+
+---
+
+## Z-Score
+
+A **Z-score** tells you how far a value is from the mean, measured in **standard deviations**.
+
+### Formula
+
+[
+Z = \frac{X - \mu}{\sigma}
+]
+
+Where:
+
+* (X) = observed value
+* (\mu) = mean
+* (\sigma) = standard deviation
+
+---
+
+### Interpretation
+
+| Z-Score | Meaning             |
+| ------- | ------------------- |
+| 0       | Exactly at the mean |
+| +1      | 1 SD above the mean |
+| -1      | 1 SD below the mean |
+| +2      | Far above average   |
+| -2      | Far below average   |
+
+---
+
+### Example
+
+If:
+
+* Mean ( \mu = 70 )
+* SD ( \sigma = 10 )
+* Score ( X = 85 )
+
+[
+Z = \frac{85 - 70}{10} = 1.5
+]
+
+**Interpretation:**
+The score is **1.5 standard deviations above the mean**.
+
+---
+
+### Why Z-Scores Matter
+
+They help with:
+
+* Comparing scores from different distributions
+* Finding probabilities
+* Identifying outliers
+* Hypothesis testing
+
+---
+
+If you want, I can also add:
+
+✅ Z-table usage
+✅ Practice questions
+✅ Graph examples
+✅ T-score comparison
+
 
 | Z | Area to Left |
 |----|-------------|
