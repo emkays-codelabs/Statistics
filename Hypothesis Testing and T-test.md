@@ -120,111 +120,72 @@ Example:
 ---
 ![Normal Distribution](Normal_distribution.png)
 
+## 4️⃣ Z-Score
 
-## 4️⃣ Z-Score  
+A **Z-score** measures how far a value is from the mean in terms of **standard deviations**.
 
-Measures how far a value is from the mean.
+### Formula
 
-Z = (x − μ) / σ  
+Z = (X − μ) / σ  
 
-Example:  
+Where:  
+- X = observed value  
+- μ = mean  
+- σ = standard deviation  
+
+### Example
+
 Score = 80  
 Mean = 70  
 SD = 5  
 
 Z = (80 − 70) / 5 = 2  
 
-Meaning:  
-The score is **2 SD above** the mean.
+**Meaning:**  
+The score is **2 standard deviations above** the mean.
 
 ---
 
 ## 5️⃣ Z-Table (Standard Normal Table)
-Here’s a **clear, concise Z-score section** you can use in your notes or Markdown file:
+
+A **Z-table** shows the probability (area) to the **left** of a Z-score in a normal distribution.
+
+### Common Values
+
+| Z     | Area to the Left |
+|-------|------------------|
+| 0.00  | 0.5000 |
+| 1.00  | 0.8413 |
+| 1.96  | 0.9750 |
+| -1.00 | 0.1587 |
 
 ---
 
-## Z-Score
+### How to Read a Z-Table
 
-A **Z-score** tells you how far a value is from the mean, measured in **standard deviations**.
-
-### Formula
-
-[
-Z = \frac{X - \mu}{\sigma}
-]
-
-Where:
-
-* (X) = observed value
-* (\mu) = mean
-* (\sigma) = standard deviation
-
----
-
-### Interpretation
-
-| Z-Score | Meaning             |
-| ------- | ------------------- |
-| 0       | Exactly at the mean |
-| +1      | 1 SD above the mean |
-| -1      | 1 SD below the mean |
-| +2      | Far above average   |
-| -2      | Far below average   |
-
----
+1. **Row** = first two digits of Z  
+2. **Column** = decimal part  
+3. **Value** = probability to the left  
 
 ### Example
 
-If:
+Z = 1.23  
+Area ≈ 0.8907  
 
-* Mean ( \mu = 70 )
-* SD ( \sigma = 10 )
-* Score ( X = 85 )
-
-[
-Z = \frac{85 - 70}{10} = 1.5
-]
-
-**Interpretation:**
-The score is **1.5 standard deviations above the mean**.
+**Meaning:**  
+89.07% of values are **below** this score.
 
 ---
 
-### Why Z-Scores Matter
+## Summary: Why Z-Scores Matter
 
-They help with:
+Z-scores help with:
 
-* Comparing scores from different distributions
-* Finding probabilities
-* Identifying outliers
-* Hypothesis testing
+- Comparing scores from different distributions  
+- Finding probabilities  
+- Identifying outliers  
+- Hypothesis testing  
 
----
-
-If you want, I can also add:
-
-✅ Z-table usage
-✅ Practice questions
-✅ Graph examples
-✅ T-score comparison
-
-
-| Z | Area to Left |
-|----|-------------|
-| 0.00 | 0.5000 |
-| 1.00 | 0.8413 |
-| 1.96 | 0.9750 |
-| -1.00 | 0.1587 |
-
-### How to Read  
-1. Row = first two digits  
-2. Column = decimal  
-3. Value = probability to the left  
-
-Example:  
-Z = 1.23 → Area ≈ 0.8907  
-Meaning: 89.07% is below this value.
 
 ---
 
