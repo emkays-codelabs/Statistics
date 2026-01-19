@@ -177,14 +177,16 @@ Area ≈ 0.8907
 
 ---
 
-## Summary: Why Z-Scores Matter
+### Summary: Why Use Z-Scores?
 
-Z-scores help with:
+Z-scores help standardize values so we can compare and interpret data easily.
 
-- Comparing scores from different distributions  
-- Finding probabilities  
-- Identifying outliers  
-- Hypothesis testing  
+They allow us to:
+- Compare scores from different distributions  
+- See how far a value is from the mean  
+- Find probabilities using a Z-table  
+- Identify outliers  
+- Perform hypothesis testing  
 
 
 ---
