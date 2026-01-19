@@ -159,13 +159,14 @@ A **Z-table** shows the probability (area) to the **left** of a Z-score in a nor
 | 1.64    | Top 5%      | 0.9500           |
 | 1.96    | Top 2.5%    | 0.9750           |
 | 2.33    | Top 1%      | 0.9900           |
-What this means:
 
+What this means
 Z = 0.00 → exactly at the mean
 Z = 1.00 → 1 standard deviation above the mean
 Z = 1.64 → only 5% of values are higher
 Z = 1.96 → only 2.5% of values are higher
 Z = 2.33 → only 1% of values are higher
+
 ---
 
 ### How to Read a Z-Table
