@@ -196,14 +196,120 @@ Example:
 Z = 1.23 → Area ≈ 0.8907  
 
 ---
+## 1️⃣2️⃣ Calculated Z, Critical Z, and P-Value
 
-## 1️⃣1️⃣ P-Value  
+These three values are used in **hypothesis testing** to decide whether to reject the null hypothesis (H₀).
 
-The p-value shows how likely the result is **if H₀ is true**.
+---
 
-| P-value | Decision |
+### 12.1 Calculated Z (Test Statistic)
+
+The **calculated Z** is computed from your sample data.
+
+It tells you how far your sample result is from the hypothesized mean in **standard deviation units**.
+
+Formula:
+
+Z = (x̄ − μ) / (σ / √n)
+
+Where:  
+x̄ = sample mean  
+μ = population mean  
+σ = population standard deviation  
+n = sample size  
+
+Example:
+
+x̄ = 95  
+μ = 100  
+σ = 10  
+n = 25  
+
+Z = (95 − 100) / (10 / √25)  
+Z = −5 / 2  
+Z = −2.5  
+
+Meaning:  
+The sample mean is **2.5 standard deviations below** the population mean.
+
+---
+
+### 12.2 Critical Z (Cutoff Value)
+
+The **critical Z** is the **boundary value** that decides whether a result is extreme enough to reject H₀.
+
+It depends on:  
+• Significance level (α)  
+• Type of test (one-tailed or two-tailed)  
+
+Common Critical Z Values:
+
+| α | Test Type | Critical Z |
+|---|----------|------------|
+| 0.05 | Two-tailed | ±1.96 |
+| 0.05 | One-tailed | 1.645 |
+| 0.01 | Two-tailed | ±2.33 |
+
+Decision Rule:
+
+If  
+|Calculated Z| > Critical Z  
+
+→ Reject H₀  
+
+Example:
+
+Calculated Z = −2.5  
+Critical Z = ±1.96  
+
+Since |−2.5| > 1.96  
+
+→ Reject H₀  
+
+---
+
+### 12.3 P-Value
+
+The **p-value** shows how likely your result is **if H₀ is true**.
+
+It measures the **strength of evidence** against H₀.
+
+Decision Rule:
+
+| Condition | Decision |
 |----------|----------|
 | p ≤ α | Reject H₀ |
 | p > α | Do not reject H₀ |
+
+Example:
+
+Z = −2.5  
+p ≈ 0.012  
+
+Since:  
+0.012 < 0.05  
+
+→ Reject H₀  
+
+---
+
+### 12.4 Final Comparison
+
+| Term | Comes From | Purpose |
+|------|------------|---------|
+| Calculated Z | Sample data | Measures how extreme the result is |
+| Critical Z | Z-table | Sets the rejection boundary |
+| P-value | Z-score | Measures evidence strength |
+
+---
+
+### 12.5 One-Line Summary
+
+• **Calculated Z** = What your data says  
+• **Critical Z** = How extreme is “too extreme”  
+• **P-value** = How strong the evidence is  
+
+---
+
 
 ---
