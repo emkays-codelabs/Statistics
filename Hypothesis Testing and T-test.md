@@ -188,7 +188,9 @@ They allow us to:
 - Identify outliers  
 - Perform hypothesis testing  
 
-
+- A positive Z-score indicates that the raw score is above the mean of the distribution.
+- A negative Z-score shows that the raw score is below the mean.
+- A Z-score of zero means the raw score is exactly equal to the mean.
 ---
 
 ## 6️⃣ What is a Hypothesis?
