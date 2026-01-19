@@ -34,8 +34,6 @@ It tells us whether the data is:
 
 Understanding skewness helps us interpret **averages**, choose the **right statistical test**, and understand **real-world data patterns**.
 
----
-
 ![Skewness Diagram](skewness.png)
 
 ### 🔹 1. Symmetric Distribution  
@@ -46,22 +44,10 @@ Understanding skewness helps us interpret **averages**, choose the **right stati
 ### 🔹 2. Positively Skewed (Right-Skewed)  
 - Mean > Median > Mode  
 - Few very large values pull the mean right  
-- Most data is on the left  
 
 ### 🔹 3. Negatively Skewed (Left-Skewed)  
 - Mean < Median < Mode  
 - Few very small values pull the mean left  
-- Most data is on the right  
-
----
-
-### 📊 Skewness Summary Table
-
-| Type | Tail Direction | Mean Relation | Example |
-|------|---------------|----------------|----------|
-| Symmetric | None | Mean = Median = Mode | Normal curve |
-| Right-Skewed | Right | Mean > Median > Mode | Income |
-| Left-Skewed | Left | Mean < Median < Mode | Easy exam |
 
 ---
 
@@ -83,47 +69,6 @@ If mean = 70, SD = 10
 68% of scores are between 60 and 80  
 
 ![Normal Distribution](Normal_distribution.png)
-
----
-
-## 4️⃣ Z-Score
-
-A **Z-score** measures how far a value is from the mean in terms of **standard deviations**.
-
-Formula:  
-Z = (X − μ) / σ  
-
-Example:  
-Score = 80  
-Mean = 70  
-SD = 5  
-
-Z = (80 − 70) / 5 = 2  
-
-Meaning:  
-The score is **2 SD above** the mean.
-
----
-
-## 5️⃣ Z-Table (Standard Normal Table)
-
-A **Z-table** shows the probability (area) to the **left** of a Z-score.
-
-| Z-value | Meaning | Area to the Left |
-|--------|---------|------------------|
-| 0.00 | At the mean | 0.5000 |
-| 1.00 | 1 SD above | 0.8413 |
-| 1.64 | Top 5% | 0.9500 |
-| 1.96 | Top 2.5% | 0.9750 |
-| 2.33 | Top 1% | 0.9900 |
-
-How to read:
-1. Row = first two digits  
-2. Column = decimal  
-3. Cell = area to the left  
-
-Example:  
-Z = 1.23 → Area ≈ 0.8907  
 
 ---
 
@@ -167,8 +112,7 @@ H₀: μ = 70
 
 # 🔟 Significance Level and Confidence Level
 
-## The Formula
-
+## The Formula  
 C + α = 1  
 
 Where:  
@@ -177,12 +121,9 @@ Where:
 
 ---
 
-## 10.1 Significance Level (α)
+### 10.1 Significance Level (α)
 
 α is the **risk of rejecting a true null hypothesis**.
-
-In simple words:  
-How much chance of being wrong are you willing to accept?
 
 Common values:
 
@@ -193,11 +134,9 @@ Common values:
 
 ---
 
-## 10.2 Confidence Level (C)
+### 10.2 Confidence Level (C)
 
 C tells how confident you are in your result.
-
-Common values:
 
 | C | Meaning |
 |----|--------|
@@ -206,17 +145,57 @@ Common values:
 
 ---
 
-## 10.3 Why C + α = 1?
+### 10.3 Why C + α = 1?
 
-Example:
-
+Example:  
 α = 0.05  
-C = 1 − 0.05 = 0.95  
+C = 0.95  
 
 0.95 + 0.05 = 1  
 
 Meaning:  
 95% confidence, 5% risk of error.
+
+---
+
+## 4️⃣ Z-Score  
+
+A **Z-score** measures how far a value is from the mean in terms of **standard deviations**.
+
+Formula:  
+Z = (X − μ) / σ  
+
+Example:  
+Score = 80  
+Mean = 70  
+SD = 5  
+
+Z = (80 − 70) / 5 = 2  
+
+Meaning:  
+The score is **2 SD above** the mean.
+
+---
+
+## 5️⃣ Z-Table (Standard Normal Table)
+
+A **Z-table** shows the probability (area) to the **left** of a Z-score.
+
+| Z-value | Meaning | Area to the Left |
+|--------|---------|------------------|
+| 0.00 | At the mean | 0.5000 |
+| 1.00 | 1 SD above | 0.8413 |
+| 1.64 | Top 5% | 0.9500 |
+| 1.96 | Top 2.5% | 0.9750 |
+| 2.33 | Top 1% | 0.9900 |
+
+How to read:
+1. Row = first two digits  
+2. Column = decimal  
+3. Cell = area to the left  
+
+Example:  
+Z = 1.23 → Area ≈ 0.8907  
 
 ---
 
@@ -233,17 +212,11 @@ The p-value shows how likely the result is **if H₀ is true**.
 
 ## 1️⃣2️⃣ Z-Test (Large Sample, σ Known)
 
-When to use:  
-- n ≥ 30  
-- σ known  
-- Testing a mean  
-
-Formula:  
 Z = (x̄ − μ) / (σ / √n)
 
 Example:  
-Claim: μ = 500  
-Sample mean = 495  
+μ = 500  
+x̄ = 495  
 σ = 10  
 n = 36  
 
@@ -263,13 +236,11 @@ Used when:
 - σ unknown  
 
 Example:  
-Scores: 65, 68, 75, 80, 72  
 Mean = 72  
 SD ≈ 5.87  
 
 t ≈ 0.76  
 df = 4  
-t-critical = 2.776  
 
 Conclusion:  
 Do not reject H₀
@@ -278,11 +249,8 @@ Do not reject H₀
 
 ## 1️⃣4️⃣ Independent T-Test  
 
-Compares two different groups.
+Compare two groups.
 
-Example:  
-Class A = 70  
-Class B = 78  
 p = 0.03  
 
 Conclusion:  
@@ -293,11 +261,7 @@ Groups are different.
 
 ## 1️⃣5️⃣ Paired T-Test  
 
-Compares before vs after.
-
-Example:  
-Before: 60  
-After: 70  
+Before vs After  
 p = 0.01  
 
 Conclusion:  
@@ -319,40 +283,25 @@ Training improved performance.
 
 ---
 
-## 1️⃣7️⃣ Chi-Square Test
+## 1️⃣7️⃣ Chi-Square Test  
 
 Used for categorical data.
-
-Example:  
-A die rolled 60 times.  
-χ² = 1.0  
-Critical = 11.07  
 
 Conclusion:  
 The die is fair.
 
 ---
 
-## 1️⃣8️⃣ Chi-Square (Independence)
-
-Example:  
-Gender vs Preference  
-p = 0.01  
+## 1️⃣8️⃣ Chi-Square (Independence)  
 
 Conclusion:  
 Preference depends on gender.
 
 ---
 
-## 1️⃣9️⃣ ANOVA
+## 1️⃣9️⃣ ANOVA  
 
 Used for 3+ groups.
-
-Example:  
-Group A = 70  
-Group B = 75  
-Group C = 85  
-p = 0.02  
 
 Conclusion:  
 At least one group differs.
@@ -379,9 +328,5 @@ At least one group differs.
 - α = Significance level  
 - p-value = Evidence strength  
 - Reject H₀ = Significant  
-- Z-test = Large sample  
-- T-test = Small sample  
-- Chi-square = Categories  
-- ANOVA = Many groups  
 
 ---
